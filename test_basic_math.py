@@ -8,7 +8,7 @@ import basic_math as bm
 class TestBasicMath(unittest.TestCase):
     def test_get_greatest(self):
         random_number_list = [95, 61, 96, 45, 27, 86, 33, 66, 4, 39]
-        pred = bm.get_greatest(random_number_list)
+        pred = bm.get_greatest(random_nugmber_list)
         self.assertEqual(pred, 96)
 
         random_number_list = [21, 83, 49, 11, 73, 57, 55, 47, 9, 30]
